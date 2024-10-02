@@ -13,16 +13,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $user = $stmt->fetch(PDO::FETCH_ASSOC);
 
     if ($user && password_verify($password, $user["password"])) {
-        // Successful login
-        // Optionally, you can store user information in the session here
-        session_start();
-        $_SESSION['user_id'] = $user['id']; // Store user ID in session
-
-        // Set a success message
-        $_SESSION['success_message'] = "Login successful! Welcome, " . htmlspecialchars($user['username']) . ".";
-
-        // Redirect to viewusers.php
-        header("Location: ../viewusers.php");
+        // Successful login, redirect to viewusers.php
+        header("Location: ../index.php");
         exit();
     } else {
         // Invalid credentials, show an error message or redirect to a login error page
