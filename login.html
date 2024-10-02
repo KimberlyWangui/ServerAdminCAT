@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="https://kit.fontawesome.com/804a3d4ad2.js"crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="topnav">
+
+    <div class="topnav-right">
+    <a href="signup.html">Sign Up</a>
+    <a href="login.html">Login</a>
+    </div>
+
+    </div>
+
+<div class="content_row row">
+<div class="form">
+<h1>login-form</h1>
+<form action="Processes/LoginProcess.php" method="POST" >
+<input type="email" class="input-box" name="email_address" placeholder="Your Email">
+<input type="password" class="input-box" name="password" placeholder="Your Password">
+<!--<button type="button" class="sign-btn">Login In</button>-->
+<input type="submit" class="sign-btn" name="login" value="Login">
+<hr>
+<p class="or">OR</p>
+<p>Don't have an account ? <a href="signup.html">Sign up</a>
+</form>
+</div>
+</div>
+
+</body>
+</html>
