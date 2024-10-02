@@ -12,8 +12,8 @@
         <a href="index.php">Home</a>
     
         <div class="topnav-right">
-        <a href="Signup.php">Sign Up</a>
-        <a href="Login.php">Login</a>
+        <a href="signup.html">Sign Up</a>
+        <a href="login.html">Login</a>
     </div>
     <div class="content_row row">
         <P>Login Successful</P>
