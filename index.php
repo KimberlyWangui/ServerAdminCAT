@@ -16,7 +16,7 @@
         <a href="login.html">Login</a>
     </div>
     <div class="content_row row">
-        <P>Login Successful StudentMiguel</P>
+        <P>Login Successful StudentHaggai</P>
     </div>
 </body>
 </html>
