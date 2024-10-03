@@ -2,7 +2,7 @@
 $host = "localhost";
 $db = "CAT1";
 $user = "root";
-$pass = "";
+$pass = "kui9548";
 $port = "3306";
 
 $dsn = "mysql:host=$host;dbname=$db;port=$port";
