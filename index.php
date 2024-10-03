@@ -16,17 +16,7 @@
         <a href="login.html">Login</a>
     </div>
     <div class="content_row row">
-    <p>
-            <?php
-                // Check if the username is available in the session (assuming it's stored in session)
-                session_start();
-                if (isset($_SESSION['username'])) {
-                    echo "Login Successful. Welcome, " . htmlspecialchars($_SESSION['username']) . "!";
-                } else {
-                    echo "Login Successful.";
-                }
-            ?>
-    </p>
+        <P>Login Successful StudentMiguel</P>
     </div>
 </body>
 </html>
